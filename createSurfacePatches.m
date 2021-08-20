@@ -26,7 +26,7 @@ torso_model = createpde();
     
 
     %tetramesh(triTorsoMesh, 'FaceColor','none')
-    triTorsoMesh = triangulation(torso_model.Mesh.Elements(1:4,:)',torso_model.Mesh.Nodes');
+    triTorsoMesh = triangulation(torso_model.Mesh.Elements(1:4,:)',torso_model.Mesh.Nodes'); 
     skinFaces = freeBoundary(triTorsoMesh);
     P = triTorsoMesh.Points;
 

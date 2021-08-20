@@ -58,7 +58,7 @@ load('SkinFaceID2RegionID_1.mat')
 % now find the mesh elements with a patch surface
 
 frontPatch = skinFaces(SkinFaceID2RegionID==2,:);
-frontPatchID = triFaceAttachments(triTorsoMesh, frontPatch);
+frontPatchID = triFaceAttachments(triTorsoMesh, frontPatch); 
 frontPatchID = cell2mat(frontPatchID);
 
 frontPatchMesh = triangulation(triTorsoMesh.ConnectivityList(frontPatchID,:),triTorsoMesh.Points);

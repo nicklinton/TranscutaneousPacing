@@ -48,3 +48,14 @@ Thumbs.db
 *.mov
 *.wmv
 
+Code.prj
+resources/project/Project.xml
+resources/project/ProjectData.type.Info.xml
+resources/project/uuid-8af6ba57-d786-431c-b4f7-202eaec5da1b.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/artifact.type.Label.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/convenience.type.Label.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/derived.type.Label.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/design.type.Label.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/none.type.Label.xml
+resources/project/Root.type.Categories/FileClassCategory.type.Category/other.type.Label.xml

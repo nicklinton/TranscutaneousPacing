@@ -1,4 +1,5 @@
-close all
+%close all
+figure
 results;
 
 triTorsoMesh = triangulation(results.Mesh.Elements(1:4,:)',results.Mesh.Nodes');
